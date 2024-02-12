@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_nplayers_names"
+                android:id="@+id/loginText"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/playerOne"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/x"
+                android:padding="8dp"
+                android:drawablePadding="10dp"
+                android:hint="@string/enter_player_one_name"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/playerTwo"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/o"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:drawablePadding="10dp"
+                android:hint="@string/enter_player_two_name"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/startGameButton"
+                android:text="@string/start_game"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/pink"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

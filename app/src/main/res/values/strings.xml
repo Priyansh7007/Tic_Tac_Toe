@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="start_game">Start Game</string>
+    <string name="enter_player_two_name">Enter player two name</string>
+    <string name="enter_player_one_name">Enter player one name</string>
+    <string name="enter_nplayers_names">ENTER\nPLAYERS NAMES</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="logintxt">Login</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="start_again">Start Again</string>
+    <string name="results">Results</string>
+</resources>
